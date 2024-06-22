@@ -148,5 +148,4 @@ $today = new DateTime();
 $pastDate = new DateTime('1992-04-25');
 $interval = $today->diff($pastDate);
 echo "あの日から" . $interval->days . "日経過しました。";
-
 ?>
